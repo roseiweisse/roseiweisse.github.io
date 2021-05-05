@@ -1,0 +1,104 @@
+
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.slideImages {
+  object-fit: cover;
+  width: 50px;
+  height: 100px
+}
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+.visonMissionPage {
+  padding: 0 15em;
+}
+.foundersInfo {
+  margin-top: 5em;
+  padding: 0 15em;
+}
+.row {
+  text-align: center;
+}
+.navbar-brand {
+  margin-left: 1em;
+}
+.foundersInfo h1 {
+  margin-bottom: 2em;
+}
+.footer {
+  margin-top: 5em;
+  text-align: center;
+}
+.founderIMG {
+  height: 10em;
+  width: 10em;
+  border-radius: 100%;
+}
+.footer a:link {
+  color: #151515;
+  text-decoration: none;
+}
+.footer a:visited {
+  color: #151515;
+}
+.footer a:hover {
+  color: #301b3f;
+  text-decoration: underline;
+}
+.footer a:active {
+  color: #301b3f;
+}
+.footer a {
+  margin: 10px 10px;
+}
+
+/* aboutPoverty */
+.bodyAboutPoverty {
+  padding: 10em 15em;
+}
+.howPoverty {
+  height: 20em;
+  width: 20em;
+}
+
+/* statisticsPoverty */
+.statisticsBody {
+  padding: 10em 15em;
+}
+.statisticsContent {
+  text-align: left;
+}
+.statisticsPhotos {
+  object-fit: contain;
+  height: 30em;
+  width: 30em;
+}
+/* actionsPoverty */
+.actionsPoverty {
+  padding: 10em 15em;
+}
+.actionsContent {
+  text-align: left;
+}
+/* references */
+.references {
+  padding: 10em 15em;
+}
+.refbutton {
+  margin-top: 1em;
+}
